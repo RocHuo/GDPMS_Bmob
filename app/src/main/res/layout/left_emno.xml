@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3F51B5">
+
+        <Button
+            style="@style/setting_text"
+            android:id="@+id/userInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="个人信息" />
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:src="@drawable/list"-->
+            <!--android:layout_centerVertical="true" />-->
+
+    </RelativeLayout>
+
+    <ListView
+        style="@style/menu_text_font"
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#0f0"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false">
+    </ListView>
+
+
+</LinearLayout>

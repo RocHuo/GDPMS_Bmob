@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+<TextView
+    android:text="指导记录"
+    android:layout_alignParentLeft="true"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp" />
+        <Button
+            android:id="@+id/add_answar_note"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加指导记录"
+            />
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/answer_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#2B2B2B"></ListView>
+
+</LinearLayout>
